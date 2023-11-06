@@ -7,6 +7,15 @@ public class Pessoa {
     private String cpf;
     private double altura;
     private double peso;
+    private int idFederacao;
+
+    public int getIdFederacao() {
+        return idFederacao;
+    }
+
+    public void setIdFederacao(int idFederacao) {
+        this.idFederacao = idFederacao;
+    }
 
     //getters and setters
     //set define o nome e o get obtêm o nome
