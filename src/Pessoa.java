@@ -60,4 +60,16 @@ public class Pessoa {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+
+    //métodos
+
+    public String sacar() {
+        return "Não sei sacar...";
+    }
 }
+
+
+
+
+
+

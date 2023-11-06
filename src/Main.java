@@ -16,8 +16,13 @@ public class Main {
 
         //Polimorfismo (um elemento muda de forma)
 
-        qualquer = new Esportista();
-        jogadora = (Esportista) new Pessoa();
-        ((Esportista) qualquer).setIdFederacao(777);
+        //qualquer = new Esportista();
+         qualquer.setIdFederacao(777);
+
+        System.out.println(qualquer.getIdFederacao());
+        System.out.println( qualquer.sacar());
+        System.out.println(jogadora.sacar());
+
+
     }
 }
